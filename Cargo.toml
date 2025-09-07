@@ -26,3 +26,11 @@ harness = false
 [[bench]]
 name = "mimalloc_direct"
 harness = false
+
+[patch.crates-io]
+# compio-driver = { path = "/home/inklesspen/Documents/thirdparty/compio/compio-driver" }
+# compio-buf = { path = "/home/inklesspen/Documents/thirdparty/compio/compio-buf" }
+# compio = { path = "/home/inklesspen/Documents/thirdparty/compio/compio" }
+# compio-dispatcher = { path = "/home/inklesspen/Documents/thirdparty/compio/compio-dispatcher" }
+# compio-io = { path = "/home/inklesspen/Documents/thirdparty/compio/compio-io" }
+# compio-fs = { path = "/home/inklesspen/Documents/thirdparty/compio/compio-fs" }
