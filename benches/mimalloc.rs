@@ -13,7 +13,7 @@ fn main() {
     divan::main();
 }
 
-#[divan::bench(consts = [4096, 65536, 128 * 1024], sample_size = 500)]
+#[divan::bench(consts = [4096, 65536, 256 * 1024, 1024 * 1024], sample_size = 500)]
 fn compio_read_exact_managed_at<const N: usize>(bencher: divan::Bencher) {
     let rt = compio::runtime::RuntimeBuilder::default().build().unwrap();
 
