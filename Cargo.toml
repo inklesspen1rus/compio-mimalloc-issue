@@ -16,15 +16,7 @@ name = "usual_read"
 harness = false
 
 [[bench]]
-name = "read_direct"
-harness = false
-
-[[bench]]
 name = "mimalloc"
-harness = false
-
-[[bench]]
-name = "mimalloc_direct"
 harness = false
 
 [patch.crates-io]
